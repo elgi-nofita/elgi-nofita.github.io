@@ -127,6 +127,10 @@ body{
     width: 100%;
 }
 
+.home .couple .elgi {
+    padding-left: 150px;
+}
+
 .home .heart{
     width: 50px;
     height: 50px;
@@ -400,6 +404,7 @@ footer{
 }
 
 
+
 }
 
 
@@ -429,7 +434,7 @@ footer{
 /* MOBILE */
 @media(max-width:576px){
  html{
-    font-size: 60%;
+    font-size: 65%;
  }
  .simply-countdown>.simply-section{
     padding: 40px;
@@ -443,4 +448,29 @@ footer{
     
  
 }
+.home .couple .elgi {
+    padding-left: 100px;
 }
+}
+
+/* MOBILE */
+@media(max-width:281px){
+    html{
+       font-size: 50%;
+    }
+    .simply-countdown>.simply-section{
+       padding: 30px;
+       margin: 2px;
+    }
+    .hero{
+       position: relative;
+       min-height:50vh;
+       padding-top: 250px !important;
+       padding-bottom: 200px !important;
+       
+    
+   }
+   .home .couple .elgi {
+       padding-left: 70px;
+   }
+   }
